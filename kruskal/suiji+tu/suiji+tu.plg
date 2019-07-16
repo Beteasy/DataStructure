@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: suiji+tu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/suiji+tu.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/suiji+tu.pdb" /debug /machine:I386 /out:"Debug/suiji+tu.exe" /pdbtype:sept 
+".\Debug\suiji+tu.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp"
+<h3>Output Window</h3>
+Compiling...
+suiji+tu.cpp
+D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp(108) : error C2065: 'cir' : undeclared identifier
+D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp(108) : error C2109: subscript requires array or pointer type
+D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp(108) : error C2228: left of '.x' must have class/struct/union type
+D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp(109) : error C2109: subscript requires array or pointer type
+D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp(109) : error C2228: left of '.y' must have class/struct/union type
+D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp(110) : error C2109: subscript requires array or pointer type
+D:\DataStructre\kruskal\suiji+tu\suiji+tu.cpp(110) : error C2228: left of '.value' must have class/struct/union type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+suiji+tu.exe - 7 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
